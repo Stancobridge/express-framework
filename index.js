@@ -2,6 +2,11 @@
  *
  * Start the server
  */
-const Server = require("./core/server");
+const bootstrap = require("./core/bootstrap");
 
-Server.start();
+
+// Start the server and set all necessary things for the server to start
+bootstrap.bootApp(
+
+)
+
